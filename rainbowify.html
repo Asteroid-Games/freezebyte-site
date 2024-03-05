@@ -12,15 +12,14 @@
 </head>
 <body>
 
-<div class="rainbow">
-    <h1>rainbowify</h1>
-</div>
+<h1>rainbowify</h1>
+<p>This tool can generate ansi text in a rainbow pattern for Discord!</p>
 
-<label for="inputText">Enter Text:</label>
-<br>
+<label for="inputText"><h2>Enter Text:</h2></label>
+
 <input type="text" id="inputText" placeholder="Type your text here">
 
-<button onclick="convertToRainbow()">Convert to Rainbow Text</button>
+<button onclick="convertToRainbow()">Rainbowify!</button>
 
 <pre id="outputText"></pre>
 
@@ -55,6 +54,8 @@
         window.getSelection().removeAllRanges();
     }
 </script>
+
+<a href="index.html">Back to home</a>
 
 </body>
 </html>

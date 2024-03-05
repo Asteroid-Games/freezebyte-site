@@ -28,3 +28,7 @@ a:active {
     background-color: transparent;
     text-decoration: underline;
 };
+button {
+    background-color: transparent;
+    border-radius: 5%;
+};
