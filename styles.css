@@ -8,3 +8,23 @@ body {
 div {
     text-align: center;
 };
+a:link {
+    color: skyblue;
+    background-color: transparent;
+    text-decoration: none;
+};
+a:visited {
+    color: lavender;
+    background-color: transparent;
+    text-decoration: none;
+};
+a:hover {
+    color: lightskyblue;
+    background-color: transparent;
+    text-decoration: underline;
+};
+a:active {
+    color: skyblue;
+    background-color: transparent;
+    text-decoration: underline;
+};
